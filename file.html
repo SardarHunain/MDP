@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Refresher</title>
+    <script>
+        // console.log("hello world");
+        // let a=10;
+        // let b=20;
+        // let ans = a+b
+        // console.log(ans)
+
+        // function show(){
+        //     console.log("hello world ")
+        // }
+        // show();
+
+        // function acceptingArguements(msg)
+        // {
+        //     console.log("hello " +msg)
+        // }
+        // acceptingArguements("world")
+
+        function calculate(num1,num2,operator){
+        console.log(eval(num1 + operator + num2))
+            
+  
+        }
+        calculate(20,10,'+');
+  
+
+        // write a js function that takes a number as arguement and returns letter grade.a
+        // Here is the grade/marks Range
+        // <50               F
+        // >=50 AND <60      E
+        // >=60 AND <70      D
+        // >=70 AND <80      C
+        // CALCULATE GRADE(75)
+
+        // function CalculateGrade(num){
+        //     if(num<50)
+        //     {
+        //         return 'F'
+        //     }
+        //     else if(num>=50 && num<60)
+        //     {
+        //         return 'E'
+        //     }
+        //     else if(num>=60 && num<70)
+        //     {
+        //         return 'D'
+        //     }
+        //     else if(num>=70 && num<80)
+        //     {
+        //         return 'C'
+        //     }
+        //     else if(num>=80 && num<90)
+        //     {
+        //         return 'B'
+        //     }
+        //     else if(num>=90)
+        //     {
+        //         return 'A'
+        //     }
+        // }
+        // console.log(CalculateGrade(75));
+
+        // function show(){
+        //     console.log("hello1");
+
+
+        // }
+        // show();
+
+        // let show2 = function show2(){
+        //     console.log("hello2");
+
+        // }
+        // show2();
+
+        //  show3=()=>{
+        //     console.log("hello3");
+
+
+        // }
+        // show3();
+
+
+        // sum=(num1)=>console.log(num1)
+        // sum(40);
+        // sum1=(num1,num2)=>console.log(num1+num2)
+        // sum1(20,30);
+        
+
+        // finding square of number using arrow function
+        // square = num=> num*num;
+        
+        // sqroot(5)
+
+        // arrow function to sum two numbers
+        //  sum=(num1,num2)=>num1+num2;
+        //  console.log(sum(10,15));
+
+        //  P =(a,b)=>a*a+b*b;
+        //  console.log(P(2,3));
+
+        
+        
+        //  P=(n,q)=>square(n)+q*n+1;
+        //  A=(x,y,z)=>square(x)+2*x*y+P(1,2)*z
+
+        //  console.log(A(2,2,2));
+
+        //                                                 /*Arrays in JS*/
+        // let A=[10,20,30,40]
+        //  for(let i =0;i<A.length;i++){
+        //      console.log(A[i])
+        //  }
+
+        // to print indexes
+        // for(num in A)
+        // {
+        //     console.log(num)
+        // }
+
+        // to print values
+        // for(num of A)
+        // {
+        //     console.log(num)
+        // }
+
+        // table of 2
+        // for(let i =1;i<=10;i++){
+        //      console.log("2*"+i+"="+i*2)
+        //  }
+
+        //  multiply each elemnt of below array by 5
+        //  B=[2,3,7,5,4,12]
+        //  for(num of B)
+        //  {
+        //     console.log(num*5)
+        //  }
+
+
+                                     /*MAP FUNCTION*/
+        //     A=[2,4,3,6,7]
+        //     A.map(function print(item)
+        //     {
+        //         console.log(item);
+        //     })
+
+        // A=[2,4,3,6,7]
+        // A.map(item=>console.log(item*5));
+
+                                    /*JSON*/
+        person = {
+            name:"Hunain",
+            age:"21"
+        }
+
+        console.log(person.name)
+        console.log(person.Age)
+        console.log(person)
+
+        //add an attribute to existig object
+        //person.marks=21;
+        //console.log(person)
+
+        /*Uses of spread operator*/
+
+        //modifying attribute to object using spread operator
+        person = {...person,age:50}
+        console.log(person)
+        //adding attribute to object using spread operator
+        person={...person,marks:50}
+        console.log(person)
+
+        A=[10,20,30]
+        A=[...A,40,50,60]
+        console.log(A)
+
+        A=[15,16,...A,18,17]
+        console.log(A)
+
+
+
+
+
+        
+
+
+  </script>
+</head>
+<body style="background-color: cornflowerblue;margin-top: 0px;">
+    <div style="border: 12px solid black; background-color: hsla(300, 50%, 87%, 0.959); display: flex; justify-content: center; width: 100%;">
+        <h1 style="color: red; background-color: bisque; ">See Console</h1>
+    </div>
+</body>
+</html>
