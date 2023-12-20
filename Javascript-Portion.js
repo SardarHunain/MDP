@@ -103,7 +103,10 @@ var myarray: [ {‘name‘: ‘ali’, ‘age’:’45’}, {‘name’:’noman
 Display the values of array using map function.*/ 
 var myArray = [{name:'Ali',age:45},{name:'noman',age:34}]
 
-myArray.map((val)=>console.log(val))
+myArray.map((val)=>{
+  console.log(val.name,val.age)
+})
+
 
 myArray.map((val)=>{
     console.table([val]);
@@ -143,3 +146,6 @@ arrowFunction = ()=>{
 console.log(arrowFunction());
 
                             /**********************End Javascript portion*************************/
+
+                            A=[2,4,3,6,7]
+                              A.map((itm)=>console.log(itm))
