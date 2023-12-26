@@ -31,9 +31,7 @@ const StudentRegScreen = ({navigation})=>{
               ]);
             await AsyncStorage.setItem("student",JSON.stringify(student))
             alert("student registered successfully")
-            setPassword("")
-            setRegNo("")
-            setStudentName("")
+            
         }
     }
     const handleremove = async()=>{
